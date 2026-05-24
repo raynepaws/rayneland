@@ -131,7 +131,7 @@
   <DropdownSection closed title="socials" id="nav-socials">
     <ul>
       <li><a href="https://artfight.net/~raynecloudy">art fight</a></li>
-      <li><a href="https://github.com/raynecloudy">github</a></li>
+      <li><a href="https://github.com/raynepaws">github</a></li>
       <li><a href="https://discord.com/users/1336737164691505246">discord (account)</a></li>
       <li><a href="https://discord.gg/mD6metDHNE">discord (server)</a></li>
       <li><a href="https://patreon.com/cw/raynecloudy">patreon</a></li>
