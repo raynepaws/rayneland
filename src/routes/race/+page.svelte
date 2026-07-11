@@ -71,7 +71,7 @@
 
 <a href="/" data-sveltekit-reload>&lt;-- back</a> | <a href="/race" data-sveltekit-reload>reload</a>
 <h1>oneko racing</h1>
-<p>made with <a href="https://github.com/raynecloudy/lots-o-nekos">lots-o-nekos</a></p>
+<p>made with <a href="https://github.com/raynepaws/lots-o-nekos">lots-o-nekos</a></p>
 <button id="start" onclick={(event) => onekos.forEach((oneko) => {
   event.currentTarget.remove();
   if (oneko.isInitialized())oneko.setTarget(window.innerWidth - oneko.x, oneko.y);

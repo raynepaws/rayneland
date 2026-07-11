@@ -164,7 +164,7 @@
     </tr>
     <tr>
       <td>jul 2025</td>
-      <td><a href="https://github.com/raynecloudy/raynec.dev">raynec.dev</a></td>
+      <td><a href="https://github.com/raynepaws/raynec.dev">raynec.dev</a></td>
       <td>software</td>
       <td>my personal website</td>
     </tr>
@@ -212,7 +212,7 @@
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://github.com/raynecloudy/fs">@raynecloudy/fs</a></td>
+      <td><a href="https://github.com/raynepaws/fs">@raynepaws/fs</a></td>
       <td>software</td>
       <td>node:fs wrapper</td>
     </tr>
@@ -224,7 +224,7 @@
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://github.com/raynecloudy/scratch.js">scratch.js</a></td>
+      <td><a href="https://github.com/raynepaws/scratch.js">scratch.js</a></td>
       <td>software</td>
       <td>make scratch projects in a new way</td>
     </tr>
@@ -278,7 +278,7 @@
     </tr>
     <tr>
       <td>jun 2025</td>
-      <td><a href="https://github.com/raynecloudy/rayne.page/tree/old">rayne.page:old</a></td>
+      <td><a href="https://github.com/raynepaws/rayne.page/tree/old">rayne.page:old</a></td>
       <td>software</td>
       <td>old personal website</td>
     </tr>
@@ -326,25 +326,25 @@
     </tr>
     <tr>
       <td>apr 2025</td>
-      <td><a href="https://github.com/raynecloudy/explore">explore</a></td>
+      <td><a href="https://github.com/raynepaws/explore">explore</a></td>
       <td>software</td>
       <td>web file explorer</td>
     </tr>
     <tr>
       <td>mar 2025</td>
-      <td><a href="https://github.com/raynecloudy/floodfill">floodfill</a></td>
+      <td><a href="https://github.com/raynepaws/floodfill">floodfill</a></td>
       <td>software</td>
       <td>pathfinder-like thing almost</td>
     </tr>
     <tr>
       <td>mar 2025</td>
-      <td><a href="https://github.com/raynecloudy/site">site</a></td>
+      <td><a href="https://github.com/raynepaws/site">site</a></td>
       <td>software</td>
       <td>old website</td>
     </tr>
     <tr>
       <td>mar 2025</td>
-      <td><a href="https://github.com/raynecloudy/rAIne">rAIne</a></td>
+      <td><a href="https://github.com/raynepaws/rAIne">rAIne</a></td>
       <td>software</td>
       <td>a discord bot and language model trained off of my discord messages</td>
     </tr>
@@ -362,7 +362,7 @@
     </tr>
     <tr>
       <td>feb 2025</td>
-      <td><a href="https://github.com/raynecloudy/-w-">-w-</a></td>
+      <td><a href="https://github.com/raynepaws/-w-">-w-</a></td>
       <td>software</td>
       <td>discord bot</td>
     </tr>
@@ -392,26 +392,26 @@
     </tr>
     <tr>
       <td>jan 2025</td>
-      <td><a href="https://github.com/raynecloudy/lots-o-nekos">lots-o-nekos</a></td>
+      <td><a href="https://github.com/raynepaws/lots-o-nekos">lots-o-nekos</a></td>
       <td>software</td>
       <td>cat follow mouse real?!???!??</td>
     </tr>
     <tr>
       <td>jan 2025</td>
-      <td><a href="https://github.com/raynecloudy/happy_birthday">happy_birthday</a></td>
+      <td><a href="https://github.com/raynepaws/happy_birthday">happy_birthday</a></td>
       <td>software</td>
       <td>a birthday gift to my CS friend :3</td>
     </tr>
     <tr><td colspan="4">^ 2025 | 2024 v</td></tr>
     <tr>
       <td>dec 2024</td>
-      <td><a href="https://github.com/raynecloudy/scratchterm">scratchterm</a></td>
+      <td><a href="https://github.com/raynepaws/scratchterm">scratchterm</a></td>
       <td>software</td>
       <td>scratch.... in the terminal?! (scrapped)</td>
     </tr>
     <tr>
       <td>dec 2024</td>
-      <td><a href="https://github.com/raynecloudy/blubot">blubot</a></td>
+      <td><a href="https://github.com/raynepaws/blubot">blubot</a></td>
       <td>software</td>
       <td>discord bot</td>
     </tr>
@@ -423,7 +423,7 @@
     </tr>
     <tr>
       <td>nov 2024</td>
-      <td><a href="https://github.com/raynecloudy/sinewaves">sinewaves</a></td>
+      <td><a href="https://github.com/raynepaws/sinewaves">sinewaves</a></td>
       <td>software</td>
       <td>cool sine wave visualizer!</td>
     </tr>
@@ -435,7 +435,7 @@
     </tr>
     <tr>
       <td>oct 2024</td>
-      <td><a href="https://github.com/raynecloudy/calc">rayne's super duper calculator</a></td>
+      <td><a href="https://github.com/raynepaws/calc">rayne's super duper calculator</a></td>
       <td>software</td>
       <td>school assignment</td>
     </tr>
@@ -549,7 +549,7 @@
     </tr>
     <tr>
       <td>jul 2024</td>
-      <td><a href="https://github.com/raynecloudy/namebook">namebook</a></td>
+      <td><a href="https://github.com/raynepaws/namebook">namebook</a></td>
       <td>software</td>
       <td>rocket.rs test</td>
     </tr>
@@ -573,7 +573,7 @@
     </tr>
     <tr>
       <td>jul 2024</td>
-      <td><a href="https://github.com/raynecloudy/rainbow-staircase">rainbow staircase</a></td>
+      <td><a href="https://github.com/raynepaws/rainbow-staircase">rainbow staircase</a></td>
       <td>software</td>
       <td>goofy lil thing</td>
     </tr>
@@ -627,7 +627,7 @@
     </tr>
     <tr>
       <td>jul 2024</td>
-      <td><a href="https://github.com/raynecloudy/goodmorning">goodmorning</a></td>
+      <td><a href="https://github.com/raynepaws/goodmorning">goodmorning</a></td>
       <td>software</td>
       <td>scrapped programming language (woah)</td>
     </tr>
@@ -675,13 +675,13 @@
     </tr>
     <tr>
       <td>may 2024</td>
-      <td><a href="https://github.com/raynecloudy/shortcake">shortcake</a></td>
+      <td><a href="https://github.com/raynepaws/shortcake">shortcake</a></td>
       <td>software</td>
       <td>scrapped passion project</td>
     </tr>
     <tr>
       <td>may 2024</td>
-      <td><a href="https://github.com/raynecloudy/.abg">ascii-based graphics format</a></td>
+      <td><a href="https://github.com/raynepaws/.abg">ascii-based graphics format</a></td>
       <td>software</td>
       <td>terminal image thing</td>
     </tr>
@@ -729,7 +729,7 @@
     </tr>
     <tr>
       <td>mar 2024</td>
-      <td><a href="https://github.com/raynecloudy/ai">artificial idiot</a></td>
+      <td><a href="https://github.com/raynepaws/ai">artificial idiot</a></td>
       <td>software</td>
       <td>my stupid attempt at making an AI</td>
     </tr>

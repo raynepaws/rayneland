@@ -1,5 +1,5 @@
 import { redirect } from "@sveltejs/kit";
 
 export const load = async () => {
-  redirect(308, "https://toyhou.se/raynecloudy/characters");
+  redirect(308, "https://toyhou.se/raynepaws/characters");
 };

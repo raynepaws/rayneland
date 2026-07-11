@@ -4,7 +4,7 @@
     <sub>2026</sub>
     <p>a highly customisable and personal instant messaging app</p>
     <div class="action-bar">
-      <a href="https://github.com/raynecloudy/weathercord">github</a>
+      <a href="https://github.com/raynepaws/weathercord">github</a>
     </div>
   </section>
   <div class="flex" style:align-items="stretch">
@@ -23,7 +23,7 @@
       <p><i>cat follow mouse real!</i> a silly javascript library for programming cats for your website</p>
       <div class="action-bar">
         <a href="https://npmjs.com/lots-o-nekos">npm</a>
-        <a href="https://github.com/raynecloudy/lots-o-nekos">github</a>
+        <a href="https://github.com/raynepaws/lots-o-nekos">github</a>
       </div>
     </section>
   </div>

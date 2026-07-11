@@ -21,7 +21,7 @@
   let presence: Types.Presence | null = $state(null);
 
   const heartbeat = async () => {
-    const song = await (await fetch("https://lastfm-last-played.biancarosa.com.br/raynecloudy/latest-song")).json();
+    const song = await (await fetch("https://lastfm-last-played.biancarosa.com.br/raynepaws/latest-song")).json();
     if (song.track?.["@attr"]) currentlyPlaying = song.track["@attr"].nowplaying === "true" ? song.track : null;
     presence = (await (await fetch(`https://api.lanyard.rest/v1/users/${discordAccount}`)).json()).data;
   }
@@ -130,12 +130,12 @@
   </DropdownSection>
   <DropdownSection closed title="socials" id="nav-socials">
     <ul>
-      <li><a href="https://artfight.net/~raynecloudy">art fight</a></li>
+      <li><a href="https://artfight.net/~raynepaws">art fight</a></li>
       <li><a href="https://github.com/raynepaws">github</a></li>
       <li><a href="https://discord.com/users/1336737164691505246">discord (account)</a></li>
       <li><a href="https://discord.gg/mD6metDHNE">discord (server)</a></li>
-      <li><a href="https://patreon.com/cw/raynecloudy">patreon</a></li>
-      <li><a href="https://toyhou.se/raynecloudy">toyhouse</a></li>
+      <li><a href="https://patreon.com/cw/raynepaws">patreon</a></li>
+      <li><a href="https://toyhou.se/raynepaws">toyhouse</a></li>
     </ul>
   </DropdownSection>
   <div>

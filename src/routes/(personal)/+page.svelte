@@ -30,7 +30,7 @@
 <section>
   <h2>what i'm working on</h2>
   <ul>
-    <li><a href="https://github.com/raynecloudy/weathercord">Weathercord</a> is a highly-customizable and personal instant messaging app driven by the fact that i'm annoyed with paywalls and think the design of many current platforms could be improved</li>
+    <li><a href="https://github.com/raynepaws/weathercord">Weathercord</a> is a highly-customizable and personal instant messaging app driven by the fact that i'm annoyed with paywalls and think the design of many current platforms could be improved</li>
     <li><a href="https://github.com/nekomide">Nekomide</a> is my web development IDE that i've been working on since april 2024. it truly is my passion project and i love it more than anything else i've ever created</li>
     <li>I've been developing some cool stuff for <a href="https://nitrobolt.org">NitroBolt</a>, which is really cool because i admired the project from afar for quite some time</li>
   </ul>
