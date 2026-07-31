@@ -503,3 +503,7 @@ section:has(> #me)::before {
   font-family: "Maple Mono";
   font-size: 1.2rem;
 }
+
+a[href^="https://webring.kiwi2.xyz/"] img {
+  height: 2.3rem;
+}

@@ -148,6 +148,15 @@
         </tr>
       </tbody>
     </table>
+    <table style:margin="auto">
+      <tbody>
+        <tr>
+          <td><a href="https://webring.kiwi2.xyz/api/user/raynepaws/next"><img src="data:image/gif;base64,R0lGODdhMgA2AJEBAAC3/wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCgABACwAAAAAMgA2AAACvYyPqcvtDyOYM9p7aMX8adCFzCeG31la57qlCwu3bhLDs1Hn4K3v643TBUnA3lCT6hF/JaOCKSJeUJJcR+qxcrBPYRTZcF65NO8YPNKayAjzmeKIzVhpusvelTehZX2SHaC2h9bnNkUVV7MG2Ka4xVfnqAL5YpiFCCFZhZkpGEa5CZrHmGhzKfMm2siJYUOG96cGOyg5G2saqJrqqvtoZXsLJ8aDMgw06neMDKycodlcyAztCe2cXF0Jhz1TAAAh+QQJCgABACwAAAAAMgA2AAACwoyPqcvtD6OctNqLswOc6995HxOKSTmS5bqmCwuHrhHXnWbnaKb3AO/TUYI7GmxCvJ2OkKRsyYokN8xHtRJV3bKYltZTBD5fsnDXjEChLV5ybLQ+2OBjdw1XVwjFeXnvcpX2x8ZllzNU+HWHlEj1xtjWtAjZ1zAoGYk56RinGGhYKfGpNypa6tdImBpwirXaivgo2OkqO6uUsomK6/KZ2ZsIezamO7MzN3P7w1oMrISc7EkbDR0NOp2sFmrNvLXNLVEAACH5BAkKAAEALAAAAAAyADYAAAK/jI+py+0Po5wUgXurdjjvn3QASBpi+YiqijLri7UKTMsHjY9kzntbDwQBe0JiaDU54TisZCewdCEhsNszdZJUTVdml/r6bL1NzXgRNYcb6crZWitOj+vSnB4Xl/Fv996Ss/MHmPczCBfklKVVCLYY0eb4JXlH6QPZSDZJUcnWqfhJ+OhXJ3UIOjoTihqj2YqyWir4tqrXeSpXKTsbmsqbWqs2FSnTRNwy9GrDNbQsauSsehydGe2pbK2ZjYkdUAAAOw==" alt="Previous"></a></td>
+          <td><a href="https://webring.kiwi2.xyz/"><img src="https://webring.kiwi2.xyz/_app/immutable/assets/logo_blue.C2mp0xvT.svg" alt="Kiwi's Bodega Webring"></a></td>
+          <td><a href="https://webring.kiwi2.xyz/api/user/raynepaws/previous"><img src="data:image/gif;base64,R0lGODdhMgA2AJEBAAC3/wAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEAAAAh+QQJCgABACwAAAAAMgA2AAACuIyPqcvtD6OctAaAs9bW7p91FQiKFPmZE4qqD8u6CwzLCE3bF2fgvLs5+EKyoGKIMZVeLdGS+fSkVsZOFIKTkKi1yFab814dyGRjDPbNplL1kT0arn+q8JsI7N7gyuadXvf1h9eml4CWZrjHR+aGVfXox0UIJThpJiaZiMkgF0d5iFQIcOZ4wihkeskZaunEp2oFm5UHSVsEpxhYBrhbprMYCywM3HNb3KqJHOy6zIzqnIoYTV0NXAAAIfkECQoAAQAsAAAAADIANgAAArqMj6nL7Q+jRKDWiaW9ubcNeKIBbqNYlieWttb6uS3MyDZN2TJO6jrt+8FUQdMQpChyPMikcjSr3VCpmHLpiEKKEe2j6bU2mdWtChp0jk/C3Bq9S5SBLrWRHg7Mj2f7Cx7nh8XiI/bXkSb1ppGoeMjYlrX4VWh215WHeenWmDGp90T2yFmJOHlFtdmzt8K6+pl6F8knG4gzN8WDa4t3FcIDGgr82glcPExchyxHpLrsuiz4G204SH09UQAAIfkECQoAAQAsAAAAADIANgAAAr2Mj6nL7Q+jnLTaK4HWZntMeaIITuMJlBl6qg8Lcy4S1zNdo/dB8vHe+eByMkxvSCxWWgyiceTIXXSNZMrEbCZD2aj1WqVCSLCXeMkad9HrxZkNNcen5bDQ9VO86Wl925KXsAdYJ/gH9zeI1ec2Rxjo5xjhZCepZlN5NEmpdRi0tekZ8LVyl8nIteHFmaoUacmn+amIqGpIW8uBuaOze/Pl+ksK5GNFXAx6PCqljFTYvAwLfRs8TQ1mna19UwAAOw==" alt="Next"></a></td>
+        </tr>
+      </tbody>
+    </table>
     <div class="doodles">
       <img src="/media/doodles/bottom.png" aria-hidden="true" alt="" style="top: 1rem; left: 0.7rem;">
     </div>
