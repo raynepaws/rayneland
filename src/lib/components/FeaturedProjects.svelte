@@ -1,7 +1,7 @@
 <div class="flex" style:flex-direction="column" style:align-items="stretch">
   <section class="feature" style:--feature="#99c0ff22">
     <h2>Weathercord</h2>
-    <sub>2026</sub>
+    <sub>2027</sub>
     <p>a highly customisable and personal instant messaging app</p>
     <div class="action-bar">
       <a href="https://github.com/raynepaws/weathercord">github</a>
@@ -10,7 +10,7 @@
   <div class="flex" style:align-items="stretch">
     <section class="feature" style:--feature="#fe86a222">
       <h2>Nekomide</h2>
-      <sub>2027</sub>
+      <sub>202X</sub>
       <p>a web development IDE and passion project started in april 2024</p>
       <div class="action-bar">
         <a href="https://nekomide.rayne.page">home page</a>
