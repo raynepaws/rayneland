@@ -20,14 +20,6 @@
 <!-- svelte-ignore a11y_distracting_elements -->
 <marquee>i love my supporters: <a class="rainbow" href="https://playfulmathematician.com">bringupyourpost</a>, <a class="rainbow" href="https://dumorando.com">dumorando</a>, <a href="https://milosantos.com">Milo</a>, <a href="https://samv.me">shock59</a></marquee>
 <section>
-  <h2>blog</h2>
-  <ul>
-    {#each feed?.querySelectorAll("item") as post}
-      <li><a href="/feed/{post.querySelector("guid")?.innerHTML}">{post.querySelector("title")?.innerHTML}</a> - {post.querySelector("pubDate")?.innerHTML}</li>
-    {/each}
-  </ul>
-</section>
-<section>
   <h2>what i'm working on</h2>
   <ul>
     <li><a href="https://github.com/raynepaws/weathercord">Weathercord</a> is a highly-customizable and personal instant messaging app driven by the fact that i'm annoyed with paywalls and think the design of many current platforms could be improved</li>
