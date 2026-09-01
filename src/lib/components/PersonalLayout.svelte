@@ -5,7 +5,7 @@
   import { onMount, type Snippet } from "svelte";
   import { page } from "$app/state";
   import type { Types } from "use-lanyard";
-  import { getSwatches, type SwatchMap } from "colorthief";
+  import { getSwatches, type ImageSource, type SwatchMap } from "colorthief";
 
   const { children, discord }: {
     children: Snippet,
@@ -77,7 +77,7 @@
       {#if currentlyPlaying && presence && presence.spotify}
         <section id="music" style:--image="url({currentlyPlaying.image[3]["#text"]})" style:--primary={(swatches?.LightMuted?.color ?? swatches?.LightVibrant?.color ?? swatches?.Vibrant?.color)?.toString()}>
           <div>
-            <img src={currentlyPlaying.image[2]["#text"]} alt={currentlyPlaying.album["#text"]} crossorigin="anonymous" onload={async (event) => swatches = await getSwatches(event.currentTarget)}>
+            <img src={currentlyPlaying.image[2]["#text"]} alt={currentlyPlaying.album["#text"]} crossorigin="anonymous" onload={async (event) => swatches = await getSwatches(event.currentTarget as ImageSource)}>
             <div>
               <sub>listening to</sub>
               <div><a href={currentlyPlaying.url} title={currentlyPlaying.name}><strong>{currentlyPlaying.name}</strong></a></div>
