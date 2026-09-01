@@ -101,14 +101,11 @@
     <section>
       <ul>
         <li class:highlighted={page.url.pathname === "/"}><a href="/">home</a></li>
-        <li class:highlighted={page.url.pathname === "/art"}><a href="/art">art</a></li>
         <li class:highlighted={page.url.pathname === "/commissions"}><a href="/commissions">commissions</a></li>
         <li class:highlighted={page.url.pathname === "/characters" || page.url.pathname.startsWith("/characters/")}><a href="/characters">characters</a></li>
         <li class:highlighted={page.url.pathname === "/contact"}><a href="/contact">contact</a></li>
         <li class:highlighted={page.url.pathname === "/projects"}><a href="/projects">projects</a></li>
-        <li><a href="//ai.rayne.page">rAIne</a></li>
         <li><a href="//smp.rayne.page">RWSMP2 stats</a></li>
-        <li class:highlighted={page.url.pathname === "/writing"}><a href="/writing">writing</a></li>
       </ul>
     </section>
   </div>
