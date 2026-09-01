@@ -15,7 +15,7 @@
 
 <section>
   <p>hey, my name is rayne! this is my funny little spot on the internet.</p>
-  <p>i'm non-binary, and use any pronouns! i'm also a high school sophomore, a digital artist, and a web developer. i spend most of my time talking on my <a href="https://discord.gg/mD6metDHNE">discord server</a> or working on <a href="/projects">software projects</a>.</p>
+  <p>i'm non-binary, and use any pronouns! i'm also a high school junior, a digital artist, and a web developer. i spend most of my time talking on my <a href="https://discord.gg/mD6metDHNE">discord server</a> or working on <a href="/projects">software projects</a>.</p>
 </section>
 <!-- svelte-ignore a11y_distracting_elements -->
 <marquee>i love my supporters: <a class="rainbow" href="https://playfulmathematician.com">bringupyourpost</a>, <a class="rainbow" href="https://dumorando.com">dumorando</a>, <a href="https://milosantos.com">Milo</a>, <a href="https://samv.me">shock59</a></marquee>
