@@ -118,7 +118,7 @@
     </span>
   </section>
   <DropdownSection title="web rating" id="nav-web-rating">
-    <p>this website is rated <strong>14+</strong>. adult themes, gory drawings, and drawings featuring censored nudity are present on this site.</p>
+    <p>this website is rated <strong>14+</strong>. look at this panda its so cute</p>
     <a href="https://www.mabsland.com/Adoption.html"><img src="/media/adopt_a_censor_14.gif" alt="Web 14"></a>
     <!-- <p>
       <input type="checkbox" bind:checked={$censorGore} id="censor-gore"><label for="censor-gore">censor gore</label><br>
