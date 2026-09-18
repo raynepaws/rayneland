@@ -48,7 +48,7 @@
                             "emoji": {
                                 "name": "🦴"
                             },
-                            "url": "https://github.com/raynepaws"
+                            "url": "<:github:1249495348183826564>"
                         }
                     ]
                 }
