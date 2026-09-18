@@ -49,7 +49,7 @@
                                 "name": "github",
                                 "id": "1249495348183826564"
                             },
-                            "url": "https://github/raynepaws"
+                            "url": "https://github.com/raynepaws"
                         }
                     ]
                 }
