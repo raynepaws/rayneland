@@ -21,7 +21,7 @@
                     "components": [
                         {
                             "type": 10,
-                            "content": "# rayne d. <:rayne_wag:1539460806805295135>\nhii i'm rayne. i'm a high schooler in the pacific northwest, an artist, and a computer scientist. woof ruff"
+                            "content": "# rayne d. <a:rayne_wag:1539460806805295135>\nhii i'm rayne. i'm a high schooler in the pacific northwest, an artist, and a computer scientist. woof ruff <:pwease_rayne:1538715994053410947>"
                         }
                     ],
                     "accessory": {
