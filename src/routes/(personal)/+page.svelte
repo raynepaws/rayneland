@@ -46,9 +46,10 @@
                             "style": 5,
                             "label": "GitHub",
                             "emoji": {
-                                "name": "🦴"
+                                "name": "github",
+                                "id": "1249495348183826564"
                             },
-                            "url": "<:github:1249495348183826564>"
+                            "url": "https://github/raynepaws"
                         }
                     ]
                 }
