@@ -11,6 +11,59 @@
 
 <svelte:head>
   <title>rayne.page</title>
+  <script id="discord:component-embed" type="application/json">
+    {
+        "component": {
+            "type": 17,
+            "components": [
+                {
+                    "type": 9,
+                    "components": [
+                        {
+                            "type": 10,
+                            "content": "rayne d. 🦴"
+                        }
+                    ],
+                    "accessory": {
+                          "type": 11,
+                          "media": { "url": "https://rayne.page/media/heads/rayne.gif" }
+                    }
+                },
+                {
+                "type": 14,
+                "spacing": 1
+                },
+                {
+                    "type": 10,
+                    "content": "hii i'm rayne. i'm a high schooler in the pacific northwest, an artist, and a computer scientist. woof"
+                },
+                {
+                    "type": 1,
+                    "components": [
+                        {
+                            "type": 2,
+                            "style": 5,
+                            "label": "Toyhouse",
+                            "emoji": {
+                                "name": "🦴"
+                            },
+                            "url": "https://toyhou.se/raynepaws"
+                        },
+                        {
+                            "type": 2,
+                            "style": 5,
+                            "label": "GitHub",
+                            "emoji": {
+                                "name": "🐙"
+                            },
+                            "url": "https://github.com/raynepaws"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+    </script>
 </svelte:head>
 
 <section>
