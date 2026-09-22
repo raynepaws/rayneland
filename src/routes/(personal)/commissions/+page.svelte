@@ -22,7 +22,22 @@
   </section>
 {/if}
 <section>
-  <h1>Art commission info</h1>
+  <h1>art commission info</h1>
+  <h2>prices</h2>
+  <p>all prices are in USD.</p>
+  <p>
+    <strong>$10</strong> - bust (head to shoulders)<br>
+    <strong>$15</strong> - half body (head to waist/hips)<br>
+    <strong>$20</strong> - full body (head to legs/feet)
+  </p>
+  <p>
+    <strong>+$5</strong> - advanced shading<br>
+    <strong>+$5</strong> - scene background<br>
+    <strong>+$5</strong> - complex character design<br>
+    <strong>+$10</strong> - extra character
+  </p>
+</section>
+<section>
   <h2>Terms of service</h2>
   <p>By commissioning me, you confirm that you have read and agree to these terms. Violation of these terms will result in termination of business and a block from future commission requests.</p>
   <ul>
@@ -62,28 +77,9 @@
 </section>
 <section>
   <h2>process</h2>
-  <p>through email or, more preferably, discord (both linked on my <a href="/contact">contact page</a>), you'll tell me what you want to buy. i charge half price up front. payment is done through stripe.</p>
+  <p>through discord or twitter (both linked on my <a href="/contact">contact page</a>), you'll tell me what you want to buy. i charge half price up front. payment is done through stripe.</p>
   <p>after this is paid, i'll draw a sketch of your request and show it to you and ask for feedback. if you have any feedback, i will modify the sketch according to your feedback and ask for your feedback again. this cycle repeats until you are satisfied.</p>
   <p>after you are satisfied, you will pay the other half of the price. after this, the purchase becomes exclusively eligible for a 50% partial refund. after this is paid i will begin coloring and drawing your chosen add-ons, if any. i will then send you the completed artwork, and the purchase becomes non-refundable.</p>
-</section>
-<section>
-  <h2>prices</h2>
-  <p>all prices are in USD.</p>
-  <h3>portrait type</h3>
-  <p>
-    <strong>$15/character</strong> - bust (head to shoulders)<br>
-    <strong>$20/character</strong> - half body (head to waist/hips)<br>
-    <strong>$25/character</strong> - full body (head to legs)
-  </p>
-  <h3>optional add-ons</h3>
-  <p>
-    <strong>+$5</strong> - basic/partial shading<br>
-    <strong>+$10</strong> - advanced shading
-  </p>
-  <p>
-    <strong>+$5</strong> - simple background<br>
-    <strong>+$10</strong> - scene
-  </p>
 </section>
 
 <div class="flex">
