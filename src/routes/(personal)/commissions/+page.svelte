@@ -58,7 +58,7 @@
 <section>
   <h2>Can/will draw</h2>
   <ul>
-    <li>Humanoids</li>
+    <li>Humanoids/anthros</li>
     <li>Romance between characters (must have permission from owners of characters)</li>
     <li>Mildly suggestive content</li>
   </ul>
@@ -72,7 +72,7 @@
     <li>Fetish content</li>
     <li>Gore</li>
     <li>Muscular humanoids</li>
-    <li>Anthros</li>
+    <li>Non-anthros</li>
   </ul>
 </section>
 <section>
