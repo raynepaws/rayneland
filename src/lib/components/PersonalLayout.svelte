@@ -133,6 +133,7 @@
       <li><a href="https://discord.gg/mD6metDHNE">discord (server)</a></li>
       <li><a href="https://patreon.com/cw/raynepaws">patreon</a></li>
       <li><a href="https://toyhou.se/raynepaws">toyhouse</a></li>
+      <li><a href="https://x.com/rayne_paws">twitter</a></li>
     </ul>
   </DropdownSection>
   <div>
