@@ -26,9 +26,9 @@
   <h2>prices</h2>
   <p>all prices are in USD.</p>
   <p>
-    <strong>$10</strong> - bust (head to shoulders)<br>
-    <strong>$15</strong> - half body (head to waist/hips)<br>
-    <strong>$20</strong> - full body (head to legs/feet)
+    <strong>$15</strong> - bust (head to shoulders)<br>
+    <strong>$20</strong> - half body (head to waist/hips)<br>
+    <strong>$25</strong> - full body (head to legs/feet)
   </p>
   <p>
     <strong>+$5</strong> - advanced shading<br>
