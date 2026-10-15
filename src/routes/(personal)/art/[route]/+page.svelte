@@ -29,7 +29,7 @@
     <h1>{data.name}</h1>
     <p>created {data.created}</p>
   {/if}
-  <Art id={page.url.pathname.slice(5)} />
+  <Art id={page.url.pathname.slice(5)} captionless />
   {#if description}
     {#await marked(description) then text}
       {@html text}
