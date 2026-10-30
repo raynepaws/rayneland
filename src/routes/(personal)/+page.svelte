@@ -1,6 +1,4 @@
 <script lang="ts">
-  import Art from "$lib/components/Art.svelte";
-  import { browser } from "$app/environment";
   import FeaturedProjects from "$lib/components/FeaturedProjects.svelte";
   import { onMount } from "svelte";
 
@@ -9,20 +7,6 @@
   onMount(async () => {
     feed = new DOMParser().parseFromString(await (await fetch("/feed.rss")).text(), "text/xml");
   });
-
-  const art = [
-    "abbey_road",
-    "astro-rayne",
-    "brazilian_rayne",
-    "i_love_you",
-    "relay_replay",
-    "shut_your_mouth_fucker",
-    "strawberry_soda",
-    "woof",
-    "yep_thats_right"
-  ];
-
-  const artChoice = art[Math.floor(Math.random() * art.length)];
 </script>
 
 <svelte:head>
@@ -81,12 +65,6 @@
 </section>
 <!-- svelte-ignore a11y_distracting_elements -->
 <marquee>i love my supporters: <a class="rainbow" href="https://playfulmathematician.com">bringupyourpost</a>, <a class="rainbow" href="https://dumorando.com">dumorando</a>, <a href="https://milosantos.com">Milo</a>, <a href="https://samv.me">shock59</a></marquee>
-<section>
-  <h2>random art</h2>
-  {#if browser}
-    <Art id={artChoice} />
-  {/if}
-</section>
 <section>
   <h2>what i'm working on</h2>
   <ul>
