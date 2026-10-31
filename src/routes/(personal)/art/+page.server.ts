@@ -1,6 +1,0 @@
-import { redirect } from "@sveltejs/kit";
-import type { PageServerLoad } from "./$types";
-
-export const load: PageServerLoad = async () => {
-  return redirect(307, "//files.rayne.page/Pictures/art");
-};
