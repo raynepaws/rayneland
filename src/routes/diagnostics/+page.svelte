@@ -1,86 +1,42 @@
 <script lang="ts">
-	import { onMount } from "svelte";
+    import { onMount } from "svelte";
 
+  let { data } = $props();
   let diagnostics: string = $state("");
 
-  const d = (line?: string) => diagnostics += (line ?? "") + "\n";
+  const d = async (line?: string) => new Promise<void>(resolve => {
+    let i = 0;
+    const toPrint = ((line ?? "") + "\n");
+    const interval = setInterval(() => {
+      diagnostics += toPrint[i];
+      i++;
+      if (i === toPrint.length) {
+        clearInterval(interval);
+        resolve();
+      };
+    }, 5);
+  });
 
   onMount(async () => {
-    {
-      let online = 1;
-      let offline = 0;
-      let error = 0;
-      d("rayne service diagnostics (https://rayne.page/diagnostics)");
-      d(`  @ ${new Date().toISOString()}`);
-      d();
-      d("=============== SERVICES ===============");
-      d();
-      d("  [x] rayne.page");
-      {
-        try {
-          const res = await fetch("https://ai.rayne.page");
-          if (res.ok) {
-            d("  [x] ai.rayne.page");
-            online++;
-          } else {
-            d("  [ ] ai.rayne.page");
-            offline++;
-          }
-        } catch (err: any) {
-          d("  [!] ai.rayne.page");
-          d(`    ${err.message}`);
-          error++;
-        }
-      }
-      {
-        try {
-          const res = await fetch("https://files.rayne.page");
-          if (res.ok) {
-            d("  [x] files.rayne.page");
-            online++;
-          } else {
-            d("  [ ] files.rayne.page");
-            offline++;
-          }
-        } catch (err: any) {
-          d("  [!] files.rayne.page");
-          d(`    ${err.message}`);
-          error++;
-        }
-      }
-      d();
-      d(`${online} online`);
-      d(`${offline} offline`);
-      d(`${error} error${error === 1 ? "" : "s"}`);
-    }
-    d();
-    {
-      let healthy = 0;
-      let down = 0;
-      d("=============== CLOUDFLARE TUNNELS ===============");
-      d();
-      const res = await fetch("/api/tunnels");
-      if (res.ok) {
-        const json = await res.json();
-        for (const tunnel of json.result) {
-          if (tunnel.status === "down") {
-            d(`  DOWN     ${tunnel.name}`);
-            d(`    @ ${tunnel.conns_inactive_at}`);
-            down++;
-          } else {
-            d(`  HEALTHY  ${tunnel.name}`);
-            d(`    @ ${tunnel.conns_active_at}`);
-            healthy++;
-          }
-        }
-        d();
-        d(`${healthy} healthy`);
-        d(`${down} down`);
-      } else {
-        d("There was an error fetching the API endpoint (/api/tunnels)")
-      }
-    }
-  });
+    await d("rayne service diagnostics (https://rayne.page/diagnostics)");
+    await d(`  @ ${new Date().toISOString()}`);
+    await d();
+    await d("=============== SERVICES ===============");
+    await d();
+    await d(`  [${data.homeOk ? "x" : " "}] rayne.page`);
+    await d(`    ${data.homeStatus}`);
+    await d(`  [${data.aiOk ? "x" : " "}] ai.rayne.page`);
+    await d(`    ${data.aiStatus}`);
+    await d(`  [${data.dokployOk ? "x" : " "}] dokploy.rayne.page`);
+    await d(`    ${data.dokployStatus}`);
+    await d(`  [${data.gitOk ? "x" : " "}] git.rayne.page`);
+    await d(`    ${data.gitStatus}`);
+    await d(`  [${data.smpOk ? "x" : " "}] smp.rayne.page`);
+    await d(`    ${data.smpStatus}`);
+    await d();
+    await d(`${Object.values(data).filter(v => v).length - 5} online`);
+    await d(`${Object.values(data).filter(v => !v).length} offline`);
+  })
 </script>
 
 <svelte:head>
@@ -100,6 +56,11 @@
     line-height: 1rem;
     font-size: 1rem;
     margin: 4rem;
+  }
+
+  ::selection {
+    background-color: #ffffff;
+    color: #000000;
   }
 
   pre, pre code {

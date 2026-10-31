@@ -16,11 +16,37 @@
   --shade2: #060408;
   --shade3: #8979a3;
   --shade4: #231c2c;
-  --primary: #ff90d8;
   --text: #f4efff;
 
   --warning: #ffbb6e;
   --warning-background: #352523;
+}
+
+@property --primary {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #ff90d8;
+}
+
+@keyframes primary-color {
+  0% {
+    --primary: #ff90d8;
+  }
+  20% {
+    --primary: #d89fff;
+  }
+  40% {
+    --primary: #bfd5ff;
+  }
+  60% {
+    --primary: #ff90c4;
+  }
+  80% {
+    --primary: #ffe1c4;
+  }
+  100% {
+    --primary: #ff90d8;
+  }
 }
 
 body {
@@ -37,7 +63,7 @@ body {
   padding-top: 20vh;
   position: relative;
   min-height: calc(100vh - 20vh - 2rem);
-  image-rendering: pixelated;
+  animation: primary-color 15s infinite linear;  
 }
 
 @media screen and (max-width: 45rem) {
@@ -155,7 +181,7 @@ aside {
 main, aside {
   max-width: 40rem;
   outline: 0.0625rem dashed var(--shade4);
-  border-radius: 1rem;
+  border-radius: 0.1rem;
   height: 100%;
   gap: 1.5rem;
 }
@@ -175,9 +201,9 @@ main, aside, .fc {
 
 :is(main, aside) section, .dropdown {
   background-color: var(--shade2);
-  padding: 1rem;
+  padding: 0.85rem;
   outline: 0.0625rem solid var(--shade1);
-  border-radius: 1rem;
+  border-radius: 0.45rem;
   flex: 1 1;
 }
 
@@ -232,16 +258,6 @@ a[href=""] {
   color: var(--shade3);
 }
 
-.feature {
-  background: linear-gradient(var(--feature), transparent);
-  outline-color: var(--feature);
-  backdrop-filter: blur(0.15rem);
-}
-
-.dont-pixelate {
-  image-rendering: initial;
-}
-
 .justify {
   align-items: stretch;
 }
@@ -283,8 +299,8 @@ section.warning, .dropdown button.warning {
 }
 
 .rainbow {
-  animation: rainbow 3s infinite linear forwards;
-  background-image: linear-gradient(90deg, #ff8080, #ffdf87, #b3ff87);
+  animation: rainbow 6s infinite linear forwards;
+  background-image: linear-gradient(90deg, #ff8080, #ffdf87);
   color: #ff9a73;
   text-shadow: none;
   font-weight: bold;
@@ -346,12 +362,6 @@ a.rainbow:not(:hover, :focus-visible) {
 }
 
 #music div:has(> a) {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
   display: block;
   line-height: 1rem;
 }
@@ -415,7 +425,7 @@ section:has(> #me)::before {
 #me > img {
   width: 6rem;
   height: 6rem;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
 }
 
 #me > div {
@@ -502,6 +512,10 @@ section:has(> #me)::before {
 #clock span {
   font-family: "Maple Mono";
   font-size: 1.2rem;
+}
+
+#flags {
+  text-align: center;
 }
 
 a[href^="https://webring.kiwi2.xyz/"] img {

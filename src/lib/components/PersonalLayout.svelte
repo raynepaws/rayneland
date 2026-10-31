@@ -21,7 +21,7 @@
   let presence: Types.Presence | null = $state(null);
 
   const heartbeat = async () => {
-    const song = await (await fetch("https://lastfm-last-played.biancarosa.com.br/raynepaws/latest-song")).json();
+    const song = await (await fetch("https://lastfm-last-played.biancarosa.com.br/raynecloudy/latest-song")).json();
     if (song.track?.["@attr"]) currentlyPlaying = song.track["@attr"].nowplaying === "true" ? song.track : null;
     presence = (await (await fetch(`https://api.lanyard.rest/v1/users/${discordAccount}`)).json()).data;
   }
@@ -77,7 +77,7 @@
       {#if currentlyPlaying && presence && presence.spotify}
         <section id="music" style:--image="url({currentlyPlaying.image[3]["#text"]})" style:--primary={(swatches?.LightMuted?.color ?? swatches?.LightVibrant?.color ?? swatches?.Vibrant?.color)?.toString()}>
           <div>
-            <img src={currentlyPlaying.image[2]["#text"]} alt={currentlyPlaying.album["#text"]} crossorigin="anonymous" onload={async (event) => swatches = await getSwatches(event.currentTarget as ImageSource)}>
+            <img src={currentlyPlaying.image[3]["#text"]} alt={currentlyPlaying.album["#text"]} crossorigin="anonymous" onload={async (event) => swatches = await getSwatches(event.currentTarget as ImageSource)}>
             <div>
               <sub>listening to</sub>
               <div><a href={currentlyPlaying.url} title={currentlyPlaying.name}><strong>{currentlyPlaying.name}</strong></a></div>
@@ -101,11 +101,15 @@
     <section>
       <ul>
         <li class:highlighted={page.url.pathname === "/"}><a href="/">home</a></li>
+        <li><a href="https://artfight.net/~raynecloudy">art fight</a></li>
         <li class:highlighted={page.url.pathname === "/commissions"}><a href="/commissions">commissions</a></li>
         <li class:highlighted={page.url.pathname === "/characters" || page.url.pathname.startsWith("/characters/")}><a href="/characters">characters</a></li>
-        <li class:highlighted={page.url.pathname === "/contact"}><a href="/contact">contact</a></li>
-        <li class:highlighted={page.url.pathname === "/projects"}><a href="/projects">projects</a></li>
-        <li><a href="//smp.rayne.page">RWSMP2 stats</a></li>
+        <li><a href="https://discord.gg/mD6metDHNE">discord server</a></li>
+        <li><a href="mailto:hi@rayne.page">e-mail</a></li>
+        <li><a href="https://github.com/raynepaws">github</a></li>
+        <li><a href="https://rayne.atabook.org">guestbook</a></li>
+        <li><a href="https://toyhou.se/raynepaws">toyhouse</a></li>
+        <li><a href="https://x.com/rayne_paws">twitter</a></li>
       </ul>
     </section>
   </div>
@@ -117,25 +121,14 @@
       }).toLowerCase()}
     </span>
   </section>
-  <DropdownSection title="web rating" id="nav-web-rating">
-    <p>this website is rated <strong>14+</strong>. look at this panda its so cute</p>
-    <a href="https://www.mabsland.com/Adoption.html"><img src="/media/adopt_a_censor_14.gif" alt="Web 14"></a>
-    <!-- <p>
-      <input type="checkbox" bind:checked={$censorGore} id="censor-gore"><label for="censor-gore">censor gore</label><br>
-      <input type="checkbox" bind:checked={$censorNudity} id="censor-nudity"><label for="censor-nudity">censor nudity</label>
-    </p> -->
-  </DropdownSection>
-  <DropdownSection closed title="socials" id="nav-socials">
-    <ul>
-      <li><a href="https://artfight.net/~raynepaws">art fight</a></li>
-      <li><a href="https://github.com/raynepaws">github</a></li>
-      <li><a href="https://discord.com/users/1336737164691505246">discord (account)</a></li>
-      <li><a href="https://discord.gg/mD6metDHNE">discord (server)</a></li>
-      <li><a href="https://patreon.com/cw/raynecloudy">patreon</a></li>
-      <li><a href="https://toyhou.se/raynepaws">toyhouse</a></li>
-      <li><a href="https://x.com/rayne_paws">twitter</a></li>
-    </ul>
-  </DropdownSection>
+  <div id="flags">
+    <img src="/media/fablef0lk_flags/unlabeled.png" alt="unlabeled">
+    <img src="/media/fablef0lk_flags/genderqueer.png" alt="genderqueer">
+    <img src="/media/fablef0lk_flags/transgender.png" alt="transgender">
+    <img src="/media/fablef0lk_flags/non-binary.png" alt="non-binary">
+    <img src="/media/fablef0lk_flags/genderfluid.png" alt="genderfluid">
+    <img src="/media/fablef0lk_flags/audhd.png" alt="audhd">
+  </div>
   <div>
     <table style:margin="auto">
       <tbody>
