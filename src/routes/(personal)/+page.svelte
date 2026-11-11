@@ -63,7 +63,7 @@
   <p>i'm non-binary and use they/them pronouns. i'm also a high school junior, digital artist, and software developer.</p>
 </section>
 <!-- svelte-ignore a11y_distracting_elements -->
-<marquee>i love my supporters: <a class="rainbow" href="https://playfulmathematician.com">bringupyourpost</a>, <a class="rainbow" href="https://dumorando.com">dumorando</a>, <a href="https://milosantos.com">Milo</a>, <a href="https://samv.me">shock59</a></marquee>
+<marquee>i love my supporters: <a class="rainbow" href="https://dumorando.com">dumorando</a>, <a href="https://milosantos.com">Milo</a>, <a href="https://samv.me">shock59</a></marquee>
 <section>
   <h2>what i've been doing</h2>
   <ul>
